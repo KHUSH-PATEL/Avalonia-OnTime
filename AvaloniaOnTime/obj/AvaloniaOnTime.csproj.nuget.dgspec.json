@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khush\\source\\repos\\Avalonia Projects\\AvaloniaOnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj": {}
+    "C:\\Users\\jenish\\Desktop\\Avalonia Projects\\Avalonia-OnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khush\\source\\repos\\Avalonia Projects\\AvaloniaOnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj": {
+    "C:\\Users\\jenish\\Desktop\\Avalonia Projects\\Avalonia-OnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khush\\source\\repos\\Avalonia Projects\\AvaloniaOnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj",
+        "projectUniqueName": "C:\\Users\\jenish\\Desktop\\Avalonia Projects\\Avalonia-OnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj",
         "projectName": "AvaloniaOnTime",
-        "projectPath": "C:\\Users\\khush\\source\\repos\\Avalonia Projects\\AvaloniaOnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj",
-        "packagesPath": "C:\\Users\\khush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khush\\source\\repos\\Avalonia Projects\\AvaloniaOnTime\\AvaloniaOnTime\\obj\\",
+        "projectPath": "C:\\Users\\jenish\\Desktop\\Avalonia Projects\\Avalonia-OnTime\\AvaloniaOnTime\\AvaloniaOnTime.csproj",
+        "packagesPath": "C:\\Users\\jenish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jenish\\Desktop\\Avalonia Projects\\Avalonia-OnTime\\AvaloniaOnTime\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\khush\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jenish\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +60,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Avalonia.Svg.Skia": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.0, )"
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,10 +13,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaOnTime
-build_property.ProjectDir = C:\Users\khush\source\repos\Avalonia Projects\AvaloniaOnTime\AvaloniaOnTime\
+build_property.ProjectDir = C:\Users\jenish\Desktop\Avalonia Projects\Avalonia-OnTime\AvaloniaOnTime\
 
-[C:/Users/khush/source/repos/Avalonia Projects/AvaloniaOnTime/AvaloniaOnTime/App.axaml]
+[C:/Users/jenish/Desktop/Avalonia Projects/Avalonia-OnTime/AvaloniaOnTime/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/khush/source/repos/Avalonia Projects/AvaloniaOnTime/AvaloniaOnTime/Views/MainWindow.axaml]
+[C:/Users/jenish/Desktop/Avalonia Projects/Avalonia-OnTime/AvaloniaOnTime/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/jenish/Desktop/Avalonia Projects/Avalonia-OnTime/AvaloniaOnTime/Views/TasksScreen.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

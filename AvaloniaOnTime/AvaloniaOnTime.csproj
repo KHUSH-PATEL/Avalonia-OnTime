@@ -13,10 +13,24 @@
     <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\Images\close.svg" />
+    <None Remove="Assets\Images\expand-icon.svg" />
+    <None Remove="Assets\Images\filter.svg" />
+    <None Remove="Assets\Images\left-arrow.svg" />
+    <None Remove="Assets\Images\leftarrow.svg" />
+    <None Remove="Assets\Images\online.svg" />
+    <None Remove="Assets\Images\pause.svg" />
+    <None Remove="Assets\Images\play-icon.svg" />
+    <None Remove="Assets\Images\refresh.svg" />
+    <None Remove="Assets\Images\search.svg" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.0.0" />
     <PackageReference Include="Avalonia.Desktop" Version="11.0.0" />
+    <PackageReference Include="Avalonia.Svg.Skia" Version="11.0.0" />
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0" />
     <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.0" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->

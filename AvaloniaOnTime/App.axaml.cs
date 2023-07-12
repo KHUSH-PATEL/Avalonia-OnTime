@@ -17,9 +17,10 @@ namespace AvaloniaOnTime
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.MainWindow = new MainWindow
+                desktop.MainWindow = new TasksScreen
                 {
-                    DataContext = new MainWindowViewModel(),
+                    //DataContext = new MainWindowViewModel(),
+                    DataContext = new TasksScreenViewModel(),
                 };
             }
 

@@ -1,0 +1,107 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="600"
+             Width="400" Height="600"
+			 x:Class="AvaloniaOnTime.Views.TasksScreen">
+	<Grid RowDefinitions="Auto, Auto, Auto,Auto, Auto" >
+		<Border BorderThickness="0,0,0,1" BorderBrush="#ededed"  Grid.Row="0">
+			<Grid  Background="#fafafa" Height="40" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
+				<Button Width="40" Background="Transparent" Grid.Column="1" >
+					<Image Source="{SvgImage /Assets/Images/online.svg}"   />
+				</Button>
+				<StackPanel  Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2">
+					<Button Background="Transparent">
+						<Image Source="/Assets/Images/start.png" Height="15" />
+					</Button>
+					<Label Foreground="#3f6de9" FontWeight="DemiBold" >02:27:11</Label>
+
+				</StackPanel>
+				<Button Width="50" Background="Transparent" Grid.Column="3" >
+					<Image Source="{SvgImage /Assets/Images/refresh.svg}"   />
+				</Button>
+			 
+			</Grid>
+		</Border>
+		
+		<Border BorderThickness="0,0,0,1" BorderBrush="#ededed" Grid.Row="1">
+			<Grid  Background="#ffffff" Height="30" ColumnDefinitions="Auto, Auto, *, Auto, Auto" Margin="10">
+				<StackPanel  Orientation="Horizontal" VerticalAlignment="Center" Grid.Column="1">
+					<Button Width="40" Height="30" Background="Transparent" >
+						<Image Source="{SvgImage /Assets/Images/leftarrow.svg}" />
+					</Button>
+					<Label Foreground="#3f6de9" FontWeight="Medium" >Trainee Engineers 2023</Label>
+
+				</StackPanel>
+
+				<Button Width="40" Height="30" Background="Transparent" Grid.Column="3" >
+					<Image Source="{SvgImage /Assets/Images/filter.svg}"   />
+				</Button>
+
+			</Grid>
+		</Border>
+		
+		<Border BorderBrush="#ededed" Grid.Row="2"   >
+			<Grid Background="#edeffc" Height="40"  ColumnDefinitions="Auto"  Margin="15,15,15,10">
+				<StackPanel  Orientation="Horizontal" VerticalAlignment="Center" Grid.Column="1" Margin="19,0,0,0" >
+					<Label Foreground="#3f6de9" FontWeight="Medium" >TE7-T160 Unit Testing</Label>
+				</StackPanel>
+			</Grid>
+		</Border>
+		<Border Grid.Row="3" Margin="15,10,15,10" Height="60" Background="#ffffff" Padding="10" BoxShadow="1 1 0 4 #edeffc">
+			<Grid   ColumnDefinitions="Auto,*,Auto" >
+				<StackPanel  Orientation="Horizontal" VerticalAlignment="Center" >
+					<Button Width="40" Height="40" Background="Transparent"  Grid.Column="1">
+						<Image Source="{SvgImage /Assets/Images/search.svg}"   />
+					</Button>
+					<TextBox Watermark="What are you working on?" BorderBrush="Transparent" Width="260"  Grid.Column="2" />
+					<Button Width="40" Height="40" Background="Transparent" Grid.Column="3">
+						<Image Source="{SvgImage /Assets/Images/close.svg}"    />
+					</Button>
+
+				</StackPanel>
+			</Grid>
+			
+		</Border>
+		<Grid Grid.Row="4" ColumnDefinitions="50, 50, *">
+			<Grid Grid.Column="0">
+				<!--<Rectangle Fill="Black" Height="30" Width="30"></Rectangle>-->
+				<Image Source="{SvgImage /Assets/Images/expand-icon.svg}" Height="25" Width="15" />
+			</Grid>
+			<Grid Grid.Column="1">
+				<Image Source="{SvgImage /Assets/Images/play-icon.svg}" Height="25" Width="15" />
+			</Grid>
+			<Grid Grid.Column="2" RowDefinitions="60">
+				<Grid Grid.Row="0">
+
+					<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+						<StackPanel.Styles>
+							<Style Selector="Label">
+								<Setter Property="Margin" Value="0,0,15,5" />
+								<Setter Property="Padding" Value="0,0,0,0" />
+							</Style>
+						</StackPanel.Styles>
+						<Label FontWeight="Bold">TE7-T143</Label>
+						<Label>JavaScript</Label>
+					</StackPanel>
+
+					<StackPanel Orientation="Horizontal"  VerticalAlignment="Bottom">
+						<StackPanel.Styles>
+							<Style Selector="Label">
+								<Setter Property="Background" Value="#edeffc"/>
+								<Setter Property="Margin" Value="0,0,10,0" />
+								<Setter Property="Padding" Value="10,0,10,0" />
+								<Setter Property="Foreground" Value="#3f6de9" />
+								<Setter Property="CornerRadius" Value="5" />
+							</Style>
+						</StackPanel.Styles>
+						<Label>Status</Label>
+						<Label>Project</Label>
+						<Label>Severity</Label>
+					</StackPanel>
+				</Grid>
+			</Grid>
+		</Grid>
+	</Grid>
+</UserControl>
